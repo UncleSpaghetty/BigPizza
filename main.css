@@ -16,16 +16,17 @@ body{
 }
 
 .title {
-    display: flex;
+    /*display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-content: center;
-    align-items: center;
+    align-items: center;*/
     margin-top: 5vh;
 }
 
 .titlelogo{
     width: 40em;
+    right: 50%;
 }
 
 @media only screen and (max-width: 650px) {
@@ -49,7 +50,12 @@ body{
 }
 
 .info{
-    width: 50rem;
+    width: 50em;
+    padding-left: 5%;
+}
+
+.pizze{
+    padding-left: 10%;
 }
 
 aside{
