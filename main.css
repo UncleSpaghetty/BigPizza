@@ -1,7 +1,7 @@
 body{
     background-image: url(/docs/parquet.jpg);
-    background-color: rgb(109, 116, 175);
-    background-blend-mode:difference;
+    background-color: rgb(150, 150, 255);
+    background-blend-mode: difference;
     font-family: 'Simonetta';
     font-weight: lighter;
     color: rgb(231, 231, 231);
@@ -10,24 +10,34 @@ body{
 }
 
 .logo{
-    width: 5em;
-    z-index: -1;
+    width: 15em;
+    margin-right: 15%;
+    margin-left: 10%;
 }
 
 .title {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;
     align-items: center;
     margin-top: 5vh;
 }
 
 .titlelogo{
-    width: 10em;
+    width: 40em;
 }
 
-.title>h1{
+@media only screen and (max-width: 650px) {
+  .titlelogo {
+    width: 20em;
+  }
+  .logo{
+      width: 10em;
+  }
+}
+
+.title h1{
     margin-bottom: 0px;
 }
 
