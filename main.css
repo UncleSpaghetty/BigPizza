@@ -1,0 +1,58 @@
+body{
+    background-image: url(/docs/parquet.jpg);
+    background-color: rgb(109, 116, 175);
+    background-blend-mode:difference;
+    font-family: 'Simonetta';
+    font-weight: lighter;
+    color: rgb(231, 231, 231);
+    text-shadow: black 2px 2px 2px;
+    line-height: 1.6;
+}
+
+.logo{
+    width: 5em;
+    z-index: -1;
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.titlelogo{
+    width: 10em;
+}
+
+.title>h1{
+    margin-bottom: 0px;
+}
+
+.main{
+    margin-top: 10vh;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+
+.info{
+    width: 50rem;
+}
+
+aside{
+    margin-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+}
+
+footer{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}
