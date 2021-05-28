@@ -17,9 +17,9 @@ body{
 }
 
 @keyframes zoom {
-    0% {transform: scale(1);}
-    50%{transform: scale(1.5);}
-    100%{transform: scale(1);}
+    0% {transform: scale(0.8);}
+    50%{transform: scale(1);}
+    100%{transform: scale(0.8);}
 }
 
 .title {
@@ -48,6 +48,20 @@ body{
   }
 }
 
+
+@media only screen and (max-width: 800px) {
+    .titlelogo {
+    width: 20em;
+  }
+  .logo{
+      width: 10em;
+  }
+  body{
+      font-size: 50%;
+  }
+}
+
+
 .title h1{
     margin-bottom: 0px;
 }
@@ -65,15 +79,25 @@ body{
     text-align: center;
     color: rgb(231, 231, 231);
     text-shadow: black 2px 2px 2px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
 }
 
 .info h3{
-    background-image: url(/docs/parquet2.jpg);
+    /*background-image: url(/docs/parquet2.jpg);
     background-color: rgb(255, 255, 255);
     background-blend-mode: difference;
     clip-path: polygon(20% 0, 5% 10%, 0 50%, 5% 89%, 20% 100%, 80% 100%, 95% 90%, 100% 50%, 95% 10%, 80% 0);
     color: black;
-    text-shadow: white 2px 2px 2px;
+    text-shadow: white 2px 2px 2px;*/
+    border-style:ridge;
+    border-radius: 15px;
+    background-image: url(/docs/parquet2.jpg);
+    background-color: rgb(243, 141, 101);
+    background-blend-mode: difference;
+    padding: 0.5vw;
 }
 
 .pizze{
@@ -96,6 +120,16 @@ ul{
     list-style-type: none;
     margin-right: 2vw;
 }
+
+
+.pizze{
+    border-style:ridge;
+    padding-right: 5vw;
+    border-width: 1vw;
+    border-radius: 5px;
+    border-color: rgb(190, 190, 190);
+}
+
 
 aside{
     margin-top: 10vh;
