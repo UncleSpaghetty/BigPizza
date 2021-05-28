@@ -122,14 +122,15 @@ body{
 }
 
 .position{
-    grid-row-start: 2;
-    grid-row-end: 6;
-    grid-column-start: 2;
-    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 .position img{
-    width: 70%;
+    width: 60%;
+    border-radius: 15px;
 }
 
 
