@@ -1,7 +1,5 @@
 body{
     background-image: url(/docs/parquet.jpg);
-    background-color: rgb(150, 150, 255);
-    background-blend-mode: difference;
     font-family: 'Simonetta';
     font-weight: lighter;
     line-height: 1.6;
@@ -28,7 +26,7 @@ body{
 .title {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;
     margin-top: 5vh;
     align-items: center;
@@ -39,35 +37,45 @@ body{
     right: 50%;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 500px) {
   .titlelogo {
     width: 20em;
   }
   .logo{
       width: 10em;
   }
-  body{
-      font-size: 80%;
-  }
   .main{
       align-content: center;
       flex-direction: column;
   }
+  .main img{
+      width: 100%;
+  }
+  .altro img{
+      width: 20em;
+  }
 }
 
-
-@media only screen and (max-width: 800px) {
-    .titlelogo {
+@media only screen and (max-width: 1050px) {
+  .titlelogo {
     width: 20em;
   }
   .logo{
       width: 10em;
   }
-  body{
-      font-size: 90%;
+  .main{
+      align-content: center;
+      flex-direction: column;
   }
-  .main > img{
-      width: 50%;
+  .main img{
+      width: 80%;
+  }
+  .altro img{
+      width: 20em;
+  }
+  .position img{
+    width: 30em;
+    height: 100%;
   }
 }
 
@@ -90,7 +98,7 @@ body{
     text-shadow: black 2px 2px 2px;
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
     justify-content: center; 
     align-content: center;
 }
@@ -105,8 +113,6 @@ body{
     border-style:ridge;
     border-radius: 15px;
     background-image: url(/docs/parquet2.jpg);
-    background-color: rgb(243, 141, 101);
-    background-blend-mode: difference;
     padding: 0.5vw;
 }
 
