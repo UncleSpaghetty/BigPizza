@@ -37,6 +37,14 @@ body{
     right: 50%;
 }
 
+#map{
+    height: 400px;
+    width: auto;
+    grid-column: 1 / 3;
+    text-shadow: none;
+}
+
+
 @media only screen and (max-width: 500px) {
   .titlelogo {
     width: 20em;
@@ -72,11 +80,11 @@ body{
   }
   .altro img{
       width: 20em;
-  }
+  }/*
   .position img{
     width: 30em;
     height: 100%;
-  }
+  }*/
 }
 
 
@@ -120,7 +128,7 @@ body{
     grid-column-start: 1;
     grid-column-end: 3;
 }
-
+/*
 .position{
     grid-row-start: 6;
     grid-row-end: 7;
@@ -133,7 +141,7 @@ body{
     border-radius: 15px;
 }
 
-
+*/
 /*
 .pizze{
     margin-right: 5vw;

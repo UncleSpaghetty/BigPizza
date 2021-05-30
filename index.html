@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Simonetta&display=swap" rel="stylesheet">
-   <link rel="icon" href="docs/logo.png">
+    <link rel="icon" href="docs/logo.png">
+    <script src="./index.js"></script>
 </head>
 <body>
     <header>
@@ -503,9 +504,7 @@
             <h3 class="infosc">Consegna a domicilio: 2,00€ </h3>
             <h3 class="infosd">Chiusura settimanale: Lunedì
             </h3>
-            <h3 class="position">
-                <a href="https://www.google.com/maps/place/Pizzeria+Big+Pizza/@40.0149464,18.1534516,16.5z/data=!4m5!3m4!1s0x0:0xe6b3ee655b72095a!8m2!3d40.0147503!4d18.1564835"><img src="docs/temp/position.png" alt=""></a>
-            </h3>
+            <h3 id="map"></h3>
     </div>
     </div>
     <aside class="altro">
@@ -524,5 +523,7 @@
             <a href="https://www.facebook.com/bigpizzacasarano/"><img src="docs/facebooklogo.jpg.png" alt="" style="width: 2em;"></a> <a href="https://www.instagram.com/bigpizza_casarano/"><img src="docs/instasocial.png" alt="" style="width: 2em;"></a>
         </h2>
     </footer>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-BQA0b_P3cmgDqeP0LZyccfyF1ODc1hQ&callback=initMap">
+    </script>
 </body>
 </html>
