@@ -15,3 +15,12 @@ function initMap() {
     });
     // [END maps_add_map_instantiate_marker]
 }
+
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}

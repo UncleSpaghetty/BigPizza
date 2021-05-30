@@ -8,17 +8,27 @@
     <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Simonetta&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="docs/logo.png">
     <script src="./index.js"></script>
 </head>
-<body>
+<body id="head">
+    <div class="topnav" id="myTopnav">
+        <a href="#head" class="active">Home</a>
+        <a href="#listino">Listino</a>
+        <a href="#info">Informazioni</a>
+        <a href="#offerte">Offerte</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
     <header>
-        <div class="title">
+        <div class="title" id="myTopnav">
             <img class="titlelogo" src="docs/titlelogo2.png" alt="">
             <img class="logo" src="docs/logo.png" alt="">
         </div>
     </header>
-    <div class="main"><img src="docs/temp/NEW_MENU2_interno.jpg" alt="">
+    <div class="main" id="listino"><img src="docs/temp/NEW_MENU2_interno.jpg" alt="">
         <img src="docs/temp/NEW_MENU2.jpg" alt="">
 
 
@@ -495,7 +505,7 @@
             </ul>-->
     </div>
     <div class="extra">
-        <div class="info">
+        <div class="info" id="info">
             <h1 class="infos">
                 Informazioni Generali
             </h1>
@@ -507,7 +517,7 @@
                 </h3>
                 <h3 id="map"></h3>
         </div>
-        <aside class="altro">
+        <aside class="altro" id="offerte">
         <!--*Prodotto Surgelato <br>
             Mozzarella senza lattosio: + € 1,00 <br>
             Mozzarella di Bufala: + € 1,50 <br>-->
@@ -519,7 +529,7 @@
     
     <footer class="social">
         <h2>
-            seguici sui nostri social <br>
+            Seguici sui nostri social <br>
         
             <a href="https://www.facebook.com/bigpizzacasarano/"><img src="docs/facebooklogo.jpg.png" alt="" style="width: 2em;"></a> <a href="https://www.instagram.com/bigpizza_casarano/"><img src="docs/instasocial.png" alt="" style="width: 2em;"></a>
         </h2>
