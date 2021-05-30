@@ -14,7 +14,7 @@ body{
     width: 15em;
     margin-right: 15%;
     margin-left: 10%;
-    animation: zoom 3s infinite ease-in-out;
+    animation: zoom 2.5s infinite ease-in-out;
 }
 
 @keyframes zoom {
@@ -68,7 +68,7 @@ body{
       flex-direction: column;
   }
   .main img{
-      width: 80%;
+      width: 103%;
   }
   .altro img{
       width: 20em;
