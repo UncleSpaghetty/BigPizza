@@ -99,6 +99,13 @@ body{
     justify-content: center;
 }
 
+.extra{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
 .info{
     margin-top: 15vh;
     text-align: center;
@@ -127,6 +134,10 @@ body{
 .infos{
     grid-column-start: 1;
     grid-column-end: 3;
+}
+
+.info > h1{
+    font-size: 3em;
 }
 /*
 .position{
@@ -239,14 +250,16 @@ aside{
     flex-direction: column;
     align-content: stretch;
     align-items: center;
+    text-shadow: black 2px 2px 2px; ;
 }
 
 .altro > h1{
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .pepsi{
-    width: 75vh;
+    width: 60vh;
+    border-radius: 15px;
 }
 
 footer{
