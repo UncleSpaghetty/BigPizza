@@ -1,6 +1,7 @@
 body{
     background-image: url(/docs/black-pizza-bg-2.jpg);
-    filter: contrast(50%);
+    background-color: grey;
+    background-blend-mode: darken;
     font-family: 'Simonetta';
     font-weight: lighter;
     line-height: 1.6;
