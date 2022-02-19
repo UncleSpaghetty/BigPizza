@@ -185,7 +185,7 @@ body{
     text-shadow: white 2px 2px 2px;*/
     border-style:ridge;
     border-radius: 15px;
-    background-image: url(/docs/parquet2.jpg);
+    background-color: rgba(128, 128, 128, 0.5);
     padding: 0.5vw;
 }
 
