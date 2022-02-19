@@ -199,6 +199,7 @@ body{
     color: #FECB47;
     text-transform: uppercase;
     font-weight: 900;
+    text-shadow: white;
 }
 /*
 .position{
@@ -319,6 +320,7 @@ aside{
     color: #FECB47;
     text-transform: uppercase;
     font-weight: 900;
+    text-shadow: white;
 }
 
 .pepsi{
