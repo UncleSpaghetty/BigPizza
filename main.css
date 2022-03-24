@@ -134,7 +134,7 @@ body{
       flex-direction: column;
   }
   .main img{
-      width: 103%;
+      width: 102%;
   }
   .altro img{
       width: 20em;
@@ -143,6 +143,21 @@ body{
     width: 30em;
     height: 100%;
   }*/
+  .extra{
+    flex-direction: column-reverse;
+  }
+  .extra img{
+      width: 100%;
+  }
+  #bevande > img{
+    width: 65%;
+ }
+}
+
+@media only screen and (min-width: 1051px) {
+    #bevande > img{
+         width: 30%;
+     }
 }
 
 
@@ -323,6 +338,12 @@ aside{
     background-color: rgba(0, 0, 0, 0.589);
     border-radius: 25px;
     text-align: center;
+}
+
+#bevande{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
 }
 
 .pepsi{
